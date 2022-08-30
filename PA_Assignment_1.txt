@@ -1,0 +1,24 @@
+1. The Main purpose of OOPs is that gives different kinds of methods so that it is easy to people to encrypt their data or access it.
+Methods like polymorphism, Abstraction, and Inheritance are very collaborative and useful in the case of data encryption When it comes to real-world scenarios
+
+
+2. In Python, inheritance happens when an object is qualified and involves searching an attribute definition tree.Every time you use an expression of the form object.
+
+3. class object is like a blueprint for an instance object but an instance object is a concrete item in our code.
+instance objects are new namespaces, they start empty but inherit object attributes that live in the class object.
+
+
+4. The calling process is automatic while the receiving process is not (it's explicit). This is the reason the first parameter of a function in class must be the object itself. 
+Writing this parameter as self is merely a convention. It is not a keyword and has no special meaning in Python.
+
+5. The task of __init__ is to initialize the data members of the class when an object of the class is created. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. It is run as soon as an object of a class is instantiated. 
+The method is useful to do any initialization you want to do with your object.
+
+6. To create instances of a class, you call the class using the class name and pass in whatever arguments its __init__ method accepts.
+You access the object's attributes using the dot operator with the object. A class variable would be accessed using the class name
+
+7. To create a class, use the keyword class, and then we add functions, methods, objects whatever is needed.
+
+8. In the case of single inheritance, we use super() to refer to the base class. we use __init__ to create super and subclasses
+
+

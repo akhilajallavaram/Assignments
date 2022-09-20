@@ -1,0 +1,16 @@
+1.Classes can create instances (objects) and have per-instance state (instance variables).
+Modules can be mixed together in classes and other modules. The class's functionality is improved by the incorporation of constants and methods from the merged module. Classes cannot, however, be mixed with anything.
+
+2.Using the class name and any arguments that the __init__ method allows, you can create instances of a class.
+
+3.Class attributes are the variables defined directly in the class that are shared by all objects of the class. Instance attributes are attributes or properties attached to an instance of a class. Instance attributes are defined in the constructor.
+
+4.An instance attribute is a Python variable belonging to only one object. It is only accessible in the scope of the object and it is defined inside the constructor function of a class
+
+5.self represents the instance of the class. 
+
+6.In Python, overloading is accomplished by overriding the method in the user-defined class that is dedicated to that operator.
+
+8.A very popular and convenient example is the Addition (+) operator.
+
+9.polymorphism and inheritance, two fundamental OOP principles. Inheritance and polymorphism are essential components for creating versatile, reliable, and simple-to-maintain software.

@@ -1,0 +1,10 @@
+1. The abstract class can be extended, and you can inherit the code. 
+This can occasionally be more practical than sharing code through static methods or object composition.
+
+2. To assign an object to each of the target lists, from left to right, an assignment statement evaluates the expression list
+ (note that this can be a single expression or a comma-separated list, the latter of which yields a tuple).
+
+3. Since base classes frequently create member variables and initialize them to default values, 
+calling base class _init__ is necessary in every case. Therefore, 
+if base class init is not called, none of that code will run and you will end up with a base class that has no member variables.
+
